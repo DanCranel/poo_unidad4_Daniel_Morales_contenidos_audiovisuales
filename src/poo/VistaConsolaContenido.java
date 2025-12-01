@@ -6,6 +6,7 @@ import java.util.Scanner;
 import uni1a.ContenidoAudiovisual;
 
 //Muestra los datos y lee entradas
+
 public class VistaConsolaContenido {
 
     private final Scanner scanner = new Scanner(System.in);

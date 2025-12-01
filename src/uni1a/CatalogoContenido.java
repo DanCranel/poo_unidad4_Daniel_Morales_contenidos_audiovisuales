@@ -5,10 +5,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-/**
- * Clase de servicio (Model) que gestiona el catálogo de contenidos.
- * Aplica SRP: solo se encarga de la lógica de negocio, no de la vista.
- */
+//gestiona el catalogo de contenido
 public class CatalogoContenido {
 
     private final ContenidoRepository repository;

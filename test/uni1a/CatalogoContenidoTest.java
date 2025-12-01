@@ -6,7 +6,7 @@ import java.util.List;
 
 import org.junit.jupiter.api.Test;
 
-//utilizacion de repositorio falso
+//test de catalogo con repositorio falso
 public class CatalogoContenidoTest {
 
     @Test

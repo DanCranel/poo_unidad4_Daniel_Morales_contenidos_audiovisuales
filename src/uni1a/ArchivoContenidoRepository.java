@@ -7,10 +7,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.*;
 
-/**
- * Implementación de ContenidoRepository que guarda y carga la información
- * en archivos CSV. Aplica manejo de excepciones y evita duplicar código.
- */
+//Implementacion del repositorio
 public class ArchivoContenidoRepository implements ContenidoRepository {
 
     private static final String DELIMITADOR = ";";
