@@ -1,19 +1,23 @@
 package poo;
-import uni1a.*;
+
+import uni1a.ArchivoContenidoRepository;
+import uni1a.CatalogoContenido;
+import uni1a.ContenidoRepository;
 
 public class PruebaAudioVisual {
-	public static void main(String[] args) {
-        System.out.println("Hello from Eclipse!");
 
-        // Crear instancias de las subclases
-        ContenidoAudiovisual[] contenidos = new ContenidoAudiovisual[3];
-        contenidos[0] = new Pelicula("Avatar", 125, "Accion", "20th Century Studios");
-        contenidos[1] = new SerieDeTV("Game of Thrones", 60, "Fantasy", 8);
-        contenidos[2] = new Documental("Cosmos", 45, "Science", "Astronomy");
+    public static void main(String[] args) {
 
-        // Mostrar los detalles de cada contenido audiovisual
-        for (ContenidoAudiovisual contenido : contenidos) {
-            contenido.mostrarDetalles();
-        }
+        System.out.println("=====================================");
+        System.out.println("  SISTEMA DE CONTENIDOS AUDIOVISUALES");
+        System.out.println("          (Patrón MVC)               ");
+        System.out.println("=====================================\n");
+
+        ContenidoRepository repository = new ArchivoContenidoRepository();
+        CatalogoContenido catalogo = new CatalogoContenido(repository);
+        VistaConsolaContenido vista = new VistaConsolaContenido();
+        ContenidoControlador controlador = new ContenidoControlador(catalogo, vista);
+
+        controlador.iniciar();
     }
 }
