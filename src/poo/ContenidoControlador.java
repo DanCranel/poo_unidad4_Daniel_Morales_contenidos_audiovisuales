@@ -7,9 +7,9 @@ import uni1a.CatalogoContenido;
 import uni1a.Pelicula;
 import uni1a.ContenidoAudiovisual;
 
-/**
- * Controlador: coordina Vista y Modelo.
- */
+
+//Controlador: coordina Vista y Modelo.
+ 
 public class ContenidoControlador {
 
     private final CatalogoContenido catalogo;
