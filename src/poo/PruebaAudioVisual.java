@@ -5,7 +5,6 @@ import uni1a.CatalogoContenido;
 import uni1a.ContenidoRepository;
 
 public class PruebaAudioVisual {
-
     public static void main(String[] args) {
 
         System.out.println("=====================================");

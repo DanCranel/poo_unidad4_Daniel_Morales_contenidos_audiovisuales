@@ -6,10 +6,7 @@ import java.util.List;
 
 import org.junit.jupiter.api.Test;
 
-/**
- * Prueba de unidad de CatalogoContenido usando un repositorio "falso"
- * para no depender de archivos reales.
- */
+//utilizacion de repositorio falso
 public class CatalogoContenidoTest {
 
     @Test

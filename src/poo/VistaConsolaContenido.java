@@ -5,9 +5,7 @@ import java.util.Scanner;
 
 import uni1a.ContenidoAudiovisual;
 
-/**
- * Vista en consola. Solo se encarga de mostrar datos y leer entrada del usuario.
- */
+//Muestra los datos y lee entradas
 public class VistaConsolaContenido {
 
     private final Scanner scanner = new Scanner(System.in);
